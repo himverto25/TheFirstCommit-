@@ -203,7 +203,7 @@ public class Interface extends javax.swing.JFrame {
             double f=(float)((c*9/5)+32);
             jTextField3.setText(String.valueOf(f));
         }
-        if(box1.equals("Farenheit") && box2.equals("Celcius"))
+        if(box1.equals("Kelvin") && box2.equals("Celcius"))
         {   
             double k=Double.parseDouble(jTextField2.getText());
             double c=k-273.15;
